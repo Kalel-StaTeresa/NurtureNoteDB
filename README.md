@@ -12,3 +12,9 @@ A Java-based health and fitness application that tracks user data, provides pers
 The app uses a MySQL database with two main tables:
 1. user_data: Stores user profile data (name, age, height, weight, BMI).
 2. activity_data: Tracks activities performed by users with references to the user_data table through user_id.
+
+Technologies
+- Java for the application logic
+- MySQL for data storage
+- JDBC for database interaction
+- Polymorphism for dynamic fitness suggestions
