@@ -64,7 +64,7 @@ public class User {
              ResultSet rs = stmt.executeQuery(query)) {
 
             if (rs.next()) {
-                this.id = rs.getInt("id"); // Retrieve user ID
+                this.id = rs.getInt("user_id"); // Retrieve user ID
                 this.name = rs.getString("name");
                 this.age = rs.getInt("age");
                 this.height = rs.getDouble("height");
